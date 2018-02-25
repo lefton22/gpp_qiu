@@ -19,6 +19,7 @@ using DG.Tweening;
 
 
 	//public bool isExisted;
+
 //Constructor
 
 //	public class Attributes

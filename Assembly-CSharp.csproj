@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5549ED54-C9DB-6841-0F38-F4D9A11DD8AE}</ProjectGuid>
+    <ProjectGuid>{3E920C24-E247-A84E-4FD2-5464D4C16761}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,11 +56,15 @@
      <Compile Include="Assets\Script\CountEnemy.cs" />
      <Compile Include="Assets\Script\Enemy.cs" />
      <Compile Include="Assets\Script\EnemyState.cs" />
+     <Compile Include="Assets\Script\examples\onclass.cs" />
      <Compile Include="Assets\Script\GenerateMonster.cs" />
      <Compile Include="Assets\Script\l1_boundry.cs" />
      <Compile Include="Assets\Script\l1_bullet.cs" />
      <Compile Include="Assets\Script\l1_bulletBorn.cs" />
      <Compile Include="Assets\Script\l1_shipControl.cs" />
+     <Compile Include="Assets\Script\l3_enemyList.cs" />
+     <Compile Include="Assets\Script\l3_tryFactory.cs" />
+     <Compile Include="Assets\Script\manager.cs" />
      <Compile Include="Assets\Script\Monster1.cs" />
      <Compile Include="Assets\Script\Monster2.cs" />
      <None Include="Assets\Demigiant\DOTween\readme.txt" />
@@ -95,16 +99,16 @@
  <HintPath>/Applications/Unity/Unity2017_2.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>/Users/sun/Documents/nyuGAMECENTER/T4/GameplayPAttern/unknownPattern2/unknownPattern2/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ <HintPath>/Users/sun/Documents/nyuGAMECENTER/T4/GameplayPAttern/unknownPattern2/unknownPattern2/gpp_qiu/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween43">
- <HintPath>/Users/sun/Documents/nyuGAMECENTER/T4/GameplayPAttern/unknownPattern2/unknownPattern2/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+ <HintPath>/Users/sun/Documents/nyuGAMECENTER/T4/GameplayPAttern/unknownPattern2/unknownPattern2/gpp_qiu/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
- <HintPath>/Users/sun/Documents/nyuGAMECENTER/T4/GameplayPAttern/unknownPattern2/unknownPattern2/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+ <HintPath>/Users/sun/Documents/nyuGAMECENTER/T4/GameplayPAttern/unknownPattern2/unknownPattern2/gpp_qiu/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="DOTween50">
- <HintPath>/Users/sun/Documents/nyuGAMECENTER/T4/GameplayPAttern/unknownPattern2/unknownPattern2/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+ <HintPath>/Users/sun/Documents/nyuGAMECENTER/T4/GameplayPAttern/unknownPattern2/unknownPattern2/gpp_qiu/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Users/sun/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
