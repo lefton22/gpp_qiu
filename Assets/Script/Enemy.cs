@@ -16,7 +16,7 @@ using DG.Tweening;
 	public AudioClip ac_destroy_wall;
 	public AudioClip ac_destroy_bullet;
 
-
+	public static bool isDead = false;
 
 	//public bool isExisted;
 
@@ -111,6 +111,7 @@ using DG.Tweening;
 				break;
 			case 2:
 				Destroy();
+				isDead = true;
 				print("destrory");
 				//				playSoundDestroy();
 				break;

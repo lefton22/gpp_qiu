@@ -67,6 +67,13 @@
      <Compile Include="Assets\Script\manager.cs" />
      <Compile Include="Assets\Script\Monster1.cs" />
      <Compile Include="Assets\Script\Monster2.cs" />
+     <Compile Include="Assets\Script\week4\EnemyKilledSubject.cs" />
+     <Compile Include="Assets\Script\week4\GameEventSystem.cs" />
+     <Compile Include="Assets\Script\week4\IGameEventObserver.cs" />
+     <Compile Include="Assets\Script\week4\IGameEventSubject.cs" />
+     <Compile Include="Assets\Script\week4\IGameSystem.cs" />
+     <Compile Include="Assets\Script\week4\monster3.cs" />
+     <Compile Include="Assets\Script\week4\observer.cs" />
      <None Include="Assets\Demigiant\DOTween\readme.txt" />
      <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
      <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
