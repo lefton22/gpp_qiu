@@ -85,7 +85,7 @@ public class observer : MonoBehaviour {
 
 				Enemy.isDead = false;
 
-				GameObject.Find("enemy3").SendMessage("listen");
+				//GameObject.Find("enemy3").SendMessage("listen");
 				}
 //			if (!Enemy.isDead)
 //				{

@@ -54,6 +54,7 @@ using DG.Tweening;
 
 		public void Update()
 		{
+	
 
 //// which enmey
 //		switch (gameObject.tag)

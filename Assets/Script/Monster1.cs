@@ -19,4 +19,6 @@ using DG.Tweening;
 //		float step = speed/100 * Time.deltaTime;
 //		transform.position = Vector3.MoveTowards(new Vector3(moveX, moveY, moveZ), pos_this , step);
 		}
+
+
 }

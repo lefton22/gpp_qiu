@@ -67,6 +67,10 @@
      <Compile Include="Assets\Script\manager.cs" />
      <Compile Include="Assets\Script\Monster1.cs" />
      <Compile Include="Assets\Script\Monster2.cs" />
+     <Compile Include="Assets\Script\task_process\boss.cs" />
+     <Compile Include="Assets\Script\task_process\task.cs" />
+     <Compile Include="Assets\Script\task_process\taskManager.cs" />
+     <Compile Include="Assets\Script\task_process\tasks.cs" />
      <Compile Include="Assets\Script\week4\EnemyKilledSubject.cs" />
      <Compile Include="Assets\Script\week4\GameEventSystem.cs" />
      <Compile Include="Assets\Script\week4\IGameEventObserver.cs" />
