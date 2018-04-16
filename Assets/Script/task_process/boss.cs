@@ -26,13 +26,12 @@ public class boss : MonoBehaviour
 		var startScale = Vector3.one;
 		var endScale = startScale * 2;
 
-		// Teleport to the left of the screen immediately...
 		_tm.Do(new SetPos(gameObject, startPos))
 
-		// Move to the middle over half a second...
+
 			.Then(new SetScale(gameObject, new Vector3(0.1f, 0.1f, 0.1f),new Vector3(1f, 01f, 1f), 1.5f))
 
-			// Then scale up for one quarter of a second
+		
 			.Then(new Scale(gameObject, startScale, endScale, 0.25f));
 
 		print("DoMyThings");

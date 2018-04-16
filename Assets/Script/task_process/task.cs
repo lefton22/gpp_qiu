@@ -6,12 +6,12 @@ public abstract class Task  {
 
 	public enum TaskStatus : byte
 		{
-		Detached, // Task has not been attached to a TaskManager
-		Pending, // Task has not been initialized
-		Working, // Task has been initialized
-		Success, // Task completed successfully
-		Fail, // Task completed unsuccessfully
-		Aborted // Task was aborted
+		Detached, 
+		Pending, 
+		Working, 
+		Success,
+		Fail, 
+		Aborted 
 		}
 
 

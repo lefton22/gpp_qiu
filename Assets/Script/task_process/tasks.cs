@@ -91,8 +91,8 @@ public class Wait : TimedTask
 //		this.gameObject = gameObject;
 //		}
 //	}
-//
-//public class reachHalfHP : iWantGameObject
+
+//public class reachHalfHP : TimedTask
 //	{
 //		public float _duration { get; private set; }
 //
@@ -106,7 +106,7 @@ public class Wait : TimedTask
 //
 //		if (_duration > duration)// change color
 //				{
-//			gameObject.GetComponent<SpriteRenderer>().color = Color.blue;
+////			gameObject.GetComponent<SpriteRenderer>().color = Color.blue;
 //				}
 //		}
 //
