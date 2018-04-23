@@ -53,6 +53,17 @@
   <ItemGroup>
      <Compile Include="Assets\Demigiant\DOTween\Examples\Basics.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Examples\Sequences.cs" />
+     <Compile Include="Assets\Sc_forlearn\state\BattleState.cs" />
+     <Compile Include="Assets\Sc_forlearn\state\DM01State.cs" />
+     <Compile Include="Assets\Sc_forlearn\state\DM07Command.cs" />
+     <Compile Include="Assets\Sc_forlearn\state\DM0xEvent.cs" />
+     <Compile Include="Assets\Sc_forlearn\state\GameLoop.cs" />
+     <Compile Include="Assets\Sc_forlearn\state\ISceneState.cs" />
+     <Compile Include="Assets\Sc_forlearn\state\MainMenuState.cs" />
+     <Compile Include="Assets\Sc_forlearn\state\SceneStateController.cs" />
+     <Compile Include="Assets\Sc_forlearn\state\StartState.cs" />
+     <Compile Include="Assets\Script\btree\BehaviorTree.cs" />
+     <Compile Include="Assets\Script\btree\Enemy_bt.cs" />
      <Compile Include="Assets\Script\CountEnemy.cs" />
      <Compile Include="Assets\Script\Enemy.cs" />
      <Compile Include="Assets\Script\EnemyState.cs" />
@@ -84,6 +95,8 @@
      <Compile Include="Assets\Script\scenes\Util\EventManager.cs" />
      <Compile Include="Assets\Script\scenes\Util\PrefabDB.cs" />
      <Compile Include="Assets\Script\scenes\Util\Services.cs" />
+     <Compile Include="Assets\Script\state\enemyState.cs" />
+     <Compile Include="Assets\Script\state\IEnemyState.cs" />
      <Compile Include="Assets\Script\task_process\boss.cs" />
      <Compile Include="Assets\Script\task_process\task.cs" />
      <Compile Include="Assets\Script\task_process\taskManager.cs" />

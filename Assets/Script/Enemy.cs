@@ -113,7 +113,7 @@ using DG.Tweening;
 			case 2:
 				Destroy();
 				isDead = true;
-				print("destrory");
+//				print("destrory");
 				//				playSoundDestroy();
 				break;
 			}

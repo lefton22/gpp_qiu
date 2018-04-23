@@ -198,9 +198,13 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1250258026013818}
-  m_Text: 'POP
+  m_Text: 'I''m
 
-    POP'
+    A
+
+    Monster...
+
+'
   m_OffsetZ: 0
   m_CharacterSize: 0.1
   m_LineSpacing: 1
